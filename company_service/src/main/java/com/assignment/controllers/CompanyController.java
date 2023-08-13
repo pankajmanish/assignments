@@ -2,17 +2,11 @@ package com.assignment.controllers;
 
 import com.assignment.entities.Company;
 import com.assignment.services.CompanyService;
-import org.springframework.aop.scope.ScopedProxyUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.HttpClientErrorException;
-import org.springframework.web.client.HttpStatusCodeException;
-import org.springframework.web.client.RestClientResponseException;
 import org.springframework.web.client.RestTemplate;
-
-import java.net.ConnectException;
 import java.util.List;
 
 @RestController
@@ -47,7 +41,6 @@ public class CompanyController {
     {
         List<Company> companies = companyService.getAll();
         return ResponseEntity.ok(companies);
-        //return ResponseEntity.status(HttpStatus.OK).body(companyService.getCompany(companyId));
     }
 
     @PostMapping
