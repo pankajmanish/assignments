@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0652b9d5-04e1-42d8-a373-3e6f84370613" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../company_service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../company_service/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../company_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../company_service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../company_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../company_service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../company_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_service/src/main/java/com/assignment/CompanyServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_service/src/main/java/com/assignment/CompanyServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_service/src/main/java/com/assignment/controllers/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_service/src/main/java/com/assignment/controllers/CompanyController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

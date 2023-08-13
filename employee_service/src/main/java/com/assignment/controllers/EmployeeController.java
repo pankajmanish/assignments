@@ -24,7 +24,7 @@ public class EmployeeController {
         return ResponseEntity.status(HttpStatus.OK).body(employeeService.get(employeeID));
     }
 
-    @GetMapping("/getAll")
+    @GetMapping("")
     public ResponseEntity<List<Employee>> getAll(){
         return ResponseEntity.ok(employeeService.getAll());
     }
