@@ -5,8 +5,8 @@ this is an internal assignment
 =======================
 To run in local host
 --------------------
-http://localhost:8081/swagger-ui/index.html# -- company-service
-http://localhost:8082/swagger-ui/index.html# -- employee-service
+a) http://localhost:8081/swagger-ui/index.html# -- company-service
+b) http://localhost:8082/swagger-ui/index.html# -- employee-service
 
 
 
@@ -39,8 +39,8 @@ Execute below commands in the respective folder of the project in ps or command 
 ============
 To execute in docker container
 ------------------------------
-http://<your machine ip address>:8081/swagger-ui/index.html# -- company-service
-http://<your machine ip address>:8082/swagger-ui/index.html# -- employee-service
+a) http://<your machine ip address>:8081/swagger-ui/index.html# -- company-service
+b) http://<your machine ip address>:8082/swagger-ui/index.html# -- employee-service
 
 
 TODO
