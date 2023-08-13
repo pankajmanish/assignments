@@ -24,7 +24,9 @@ public class CompanyController {
         Company company = companyService.getCompany(companyId);
 
         try {
-            List employeeList = this.restTemplate.getForObject("http://localhost:8082/employee/company/" + company.getCompanyId().toString(), List.class);
+            //locally run : give localhost
+            //docker run : ipaddress of your machine
+            List employeeList = this.restTemplate.getForObject("http://172.19.112.1:8082/employee/company/" + company.getCompanyId().toString(), List.class);
             company.setEmployeeList(employeeList);
         }
         catch (Exception ex) {

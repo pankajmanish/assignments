@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0652b9d5-04e1-42d8-a373-3e6f84370613" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../company_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../company_service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../company_service/src/main/java/com/assignment/CompanyServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_service/src/main/java/com/assignment/CompanyServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../company_service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../company_service/src/main/java/com/assignment/controllers/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company_service/src/main/java/com/assignment/controllers/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../company_service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/git/assignments/employee_service",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.assignment.exceptions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\assignments\employee_service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.assignment.exceptions" />
