@@ -20,11 +20,11 @@ public class EmployeeController {
     }
 
     @GetMapping("/{employeeID}")
-    public ResponseEntity<Employee> getEmployee(@RequestBody Long employeeID){
+    public ResponseEntity<Employee> getEmployee(@PathVariable Long employeeID){
         return ResponseEntity.status(HttpStatus.OK).body(employeeService.get(employeeID));
     }
 
-    @GetMapping("")
+    @GetMapping
     public ResponseEntity<List<Employee>> getAll(){
         return ResponseEntity.ok(employeeService.getAll());
     }
