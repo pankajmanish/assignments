@@ -24,6 +24,14 @@ b) http://localhost:8082/swagger-ui/index.html# -- employee-service
 
    docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=admin -e POSTGRES_USER=admin -e POSTGRES_DB=myTestDB -v D:\postgres_container_data:/var/lib/postgresql/data --name=postgres_con postgres
 
+3. Microservices (running in docker containers) connecting to Postgres 
+   a) at command prompt run : docker inspect postgres_con
+   b) Note down the ipaddress mentioned 
+   c) at application.properties file, use this ipaddress e.g. below
+      
+      spring.datasource.url=jdbc:postgresql://[ipaddress]:5432/myTestDB
+     #spring.datasource.url=jdbc:postgresql://localhost:5432/myTestDB
+
 
 #Docker
 ----------------
@@ -39,8 +47,8 @@ Execute below commands in the respective folder of the project in ps or command 
 ============
 To execute in docker container
 ------------------------------
-a) http://<your machine ip address>:8081/swagger-ui/index.html# -- company-service
-b) http://<your machine ip address>:8082/swagger-ui/index.html# -- employee-service
+a) http://[your machine ip address]:8081/swagger-ui/index.html# -- company-service
+b) http://[your machine ip address]:8082/swagger-ui/index.html# -- employee-service
 
 
 TODO
